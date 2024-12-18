@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Town & Sea - Home Decor Marketplace</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-theme">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Town & Sea</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.html">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="cart-count" id="cartCount">0</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" id="authLinks">
+                        <a class="nav-link" href="signin.html">Sign In</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="container text-center">
+            <h1>Welcome to Town & Sea</h1>
+            <p class="lead">Discover Unique Antique Pieces & Pre-loved Treasures</p>
+            <a href="#products" class="btn btn-primary btn-lg">Shop Now</a>
+        </div>
+    </header>
+
+    <!-- Products Section -->
+    <section id="products" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Featured Products</h2>
+            <div class="row g-4">
+                <!-- Product 1 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Vintage Cabinet">
+                        <div class="card-body">
+                            <h5 class="card-title">Vintage Oak Cabinet</h5>
+                            <p class="card-text">$2,400</p>
+                            <div class="d-flex justify-content-between">
+                                <button class="btn btn-primary">Add to Cart</button>
+                                <button class="btn btn-outline-primary btn-make-offer">Make an Offer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1592078615290-033ee584e267?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Antique Chair">
+                        <div class="card-body">
+                            <h5 class="card-title">Victorian Armchair</h5>
+                            <p class="card-text">$1,200</p>
+                            <div class="d-flex justify-content-between">
+                                <button class="btn btn-primary">Add to Cart</button>
+                                <button class="btn btn-outline-primary btn-make-offer">Make an Offer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Antique Mirror">
+                        <div class="card-body">
+                            <h5 class="card-title">Gilded Wall Mirror</h5>
+                            <p class="card-text">$850</p>
+                            <div class="d-flex justify-content-between">
+                                <button class="btn btn-primary">Add to Cart</button>
+                                <button class="btn btn-outline-primary btn-make-offer">Make an Offer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Vintage Table Lamp">
+                        <div class="card-body">
+                            <h5 class="card-title">Art Deco Table Lamp</h5>
+                            <p class="card-text">$580</p>
+                            <div class="d-flex justify-content-between">
+                                <button class="btn btn-primary">Add to Cart</button>
+                                <button class="btn btn-outline-primary btn-make-offer">Make an Offer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 5 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Vintage Dining Set">
+                        <div class="card-body">
+                            <h5 class="card-title">Mahogany Dining Set</h5>
+                            <p class="card-text">$3,200</p>
+                            <div class="d-flex justify-content-between">
+                                <button class="btn btn-primary">Add to Cart</button>
+                                <button class="btn btn-outline-primary btn-make-offer">Make an Offer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 6 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1567225557594-88d73e55f2cb?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Vintage Clock">
+                        <div class="card-body">
+                            <h5 class="card-title">Grandfather Clock</h5>
+                            <p class="card-text">$1,800</p>
+                            <div class="d-flex justify-content-between">
+                                <button class="btn btn-primary">Add to Cart</button>
+                                <button class="btn btn-outline-primary btn-make-offer">Make an Offer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 7 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Vintage Bookshelf">
+                        <div class="card-body">
+                            <h5 class="card-title">Antique Bookshelf</h5>
+                            <p class="card-text">$1,600</p>
+                            <div class="d-flex justify-content-between">
+                                <button class="btn btn-primary">Add to Cart</button>
+                                <button class="btn btn-outline-primary btn-make-offer">Make an Offer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 8 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1543330091-27228394c7dc?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Vintage Chandelier">
+                        <div class="card-body">
+                            <h5 class="card-title">Crystal Chandelier</h5>
+                            <p class="card-text">$2,900</p>
+                            <div class="d-flex justify-content-between">
+                                <button class="btn btn-primary">Add to Cart</button>
+                                <button class="btn btn-outline-primary btn-make-offer">Make an Offer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 9 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Vintage Vase">
+                        <div class="card-body">
+                            <h5 class="card-title">Chinese Porcelain Vase</h5>
+                            <p class="card-text">$980</p>
+                            <div class="d-flex justify-content-between">
+                                <button class="btn btn-primary">Add to Cart</button>
+                                <button class="btn btn-outline-primary btn-make-offer">Make an Offer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 10 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1581428982868-e410dd047a90?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Vintage Writing Desk">
+                        <div class="card-body">
+                            <h5 class="card-title">Victorian Writing Desk</h5>
+                            <p class="card-text">$1,750</p>
+                            <div class="d-flex justify-content-between">
+                                <button class="btn btn-primary">Add to Cart</button>
+                                <button class="btn btn-outline-primary btn-make-offer">Make an Offer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Make Offer Modal -->
+    <div class="modal fade" id="offerModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Make an Offer</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="offerForm">
+                        <div class="mb-3">
+                            <label for="offerPrice" class="form-label">Your Offer Price ($)</label>
+                            <input type="number" class="form-control" id="offerPrice" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="offerMessage" class="form-label">Message (Optional)</label>
+                            <textarea class="form-control" id="offerMessage" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit Offer</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-5 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Town & Sea</h5>
+                    <p>Your premier destination for unique antique pieces and pre-loved treasures.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Connect With Us</h5>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
